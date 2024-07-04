@@ -1,0 +1,47 @@
+getgenv().rupture = {
+    Aimbot = {
+        Keybind = Enum.KeyCode.C,
+        CamlockPrediction = 0.39,
+        Prediction = 0.1347,
+
+        Basic = true,
+        TargetPart = "HumanoidRootPart",
+
+        NearestPart = false,
+        MultipleTargetPart = {"Head","HumanoidRootPart"},
+
+        CameraSmoothing = 0.06,
+        CameraShake = 0,
+        JumpOffset = -1.50
+    },
+    Safety = {
+        AntiGroundShots = false,
+    },
+    Checks = {
+        DisableOnTargetDeath = true,
+        DisableOnPlayerDeath = true,
+        CheckKoStatus = true,
+    },
+    Macro = {
+        Enabled = false,
+        SpeedGlitchKey = Enum.KeyCode.X,
+    },
+    EspSection = {
+        ChamsESP = false,
+        ChamsESPKeybind = Enum.KeyCode.T,
+        ChamsColor1 = Color3.fromRGB(255, 255, 255),
+        ChamsColor2 = Color3.fromRGB(255, 255, 255),
+    },
+    Misc = {
+        RejoinServer = false,
+    },
+    Spin = {
+        Enabled = true,
+        SpinSpeed = 4900,
+        Degrees = 360,
+        Keybind = Enum.KeyCode.V,
+    },
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1442s/rupture/main/boringstuff"))()
+-- open source'd btw
